@@ -1,8 +1,8 @@
 import React from "react";
-import Loadingpage from "./Loadingpage";
+import GetstartedPage from "./GetstartedPage";
 
 const Index = () => {
-  return <Loadingpage />;
+  return <GetstartedPage />;
 };
 
 export default Index;
