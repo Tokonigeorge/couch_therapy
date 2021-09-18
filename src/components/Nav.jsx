@@ -3,7 +3,7 @@ import NavIcon from "./NavIcon";
 
 const Nav = () => {
   return (
-    <div className="bg-blue fixed bottom-0 left-0 z-50 w-full h-1/6 flex flex-row justify-between items-center px-4">
+    <div className="fixed bottom-0 left-0 z-50 w-full h-16 flex flex-row justify-between items-center px-2">
       <NavIcon home={"home"} />
       <NavIcon camp={"camp"} />
       <NavIcon couch={"couch"} />

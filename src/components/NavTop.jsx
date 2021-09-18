@@ -3,7 +3,7 @@ import profileIcon from "../assests/profileIcon.svg";
 
 const NavTop = ({ userName, dailyMessage }) => {
   return (
-    <div className="flex flex-row justify-between items-center px-4">
+    <div className="flex flex-row justify-between items-center px-6">
       <div>
         <p className="text-xl font-semibold">
           Hi there <span className="font-bold">{userName}!</span>
