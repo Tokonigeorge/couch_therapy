@@ -1,5 +1,5 @@
 import "./App.css";
-import Index from "./layouts";
+import Index from "./layouts/index";
 
 function App() {
   return (

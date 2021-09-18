@@ -13,7 +13,7 @@ const InputType = ({ type, des, id, placeholder }) => {
           name={des}
           id={id}
           placeholder={placeholder}
-          className="w-full h-full px-4 text-sm text-gray-400 outline-none border-none"
+          className="w-full h-full px-4 text-sm text-gray-400 outline-none "
         />
       ) : (
         <TelInput />

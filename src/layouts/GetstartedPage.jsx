@@ -42,7 +42,11 @@ const GetstartedPage = () => {
           </a>
         </span>
       </label>
-      <Button prop="bg-black mt-4 mb-4" text="Get Started" />
+      <Button
+        prop="bg-black mt-4 mb-4
+      "
+        text="Get Started"
+      />
       <Login />
     </div>
   );
