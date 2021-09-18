@@ -1,8 +1,8 @@
 import React from "react";
-import GetstartedPage from "./GetstartedPage";
+import CarouselPage from "./CarouselPage";
 
 const Index = () => {
-  return <GetstartedPage />;
+  return <CarouselPage />;
 };
 
 export default Index;
