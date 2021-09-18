@@ -8,7 +8,7 @@ const NavTop = ({ userName, dailyMessage }) => {
         <p className="text-xl font-semibold">
           Hi there <span className="font-bold">{userName}!</span>
         </p>
-        <p className="text-gray-400">{dailyMessage}</p>
+        <p className="text-gray-400 ">{dailyMessage}</p>
       </div>
       <div>
         <img src={profileIcon} alt="" /> <p className="font-bold">Profile</p>
