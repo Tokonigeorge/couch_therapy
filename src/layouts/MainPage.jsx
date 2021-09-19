@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from "../components/Nav";
-import CampPage from "./CampPage";
+import JournalPage from "./JournalPage";
 
 const MainPage = () => {
   return (
     <div className="h-screen">
-      <CampPage />
+      <JournalPage />
       <Nav />
     </div>
   );
