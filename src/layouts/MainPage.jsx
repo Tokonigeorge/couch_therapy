@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "../components/Nav";
-import AddpostPage from "./AddpostPage";
+import CouchPage from "./CouchPage";
 import AddpostNavbar from "../components/AddpostNavbar";
 
-const MainPage = ({isAddPost}) => {
+const MainPage = ({ isAddPost }) => {
   return (
     <div className="h-screen">
-     <AddpostPage />
-     {isAddPost ? <AddpostNavbar />:<Nav />} 
+      <CouchPage />
+      {isAddPost ? <AddpostNavbar /> : <Nav />}
     </div>
   );
 };
