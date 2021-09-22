@@ -40,7 +40,7 @@ const JournalPage = () => {
           <JournalItem
             header={i.header}
             date={i.date}
-            sharedWith={i.sharedWith}
+            sharedWith={i.sharedWith} key={indx}
           />
         ))}
       </div>
